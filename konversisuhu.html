@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>Latihan Revou</title>
+     <link rel="stylesheet" href="style.css">
+     <script type="text/javascript" src="hitung.js"></script>
+</head>
+<body>
+     <form name="suhu">
+           <label>Masukkan suhu derajat celcius atu farenheit</label>
+           <input type="number" id="temp" name="temp"/><br/>
+           <input type="radio" name="pilihan" value="fahrenheit">Convert to Fahrenheit<br/>
+           <input type="radio" name="pilihan" value="celcius">Convert to Celcius<br/>   
+           <label>Hasil: </label>
+           <input type="number" id="resultfield" readonly><br/>
+           <input type="button" value="Convert" onclick="convertSuhu()"/>
+           <input type="reset" value="Reset"> <br>
+           <label>Rumus</label>
+           <input type="text" id="rumus" readonly>
+     </form>
+     <h2>Cara Konversi Dari Celcius (<sup>o</sup>C) ke Farenheit (<sup>o</sup>F)</h2>
+     <hr/>
+     <p>Suhu <i>S</i> dalam derajat Farenheit (<sup>o</sup>F) sama dengan suhu <i>S</i> dalam derajat Celcius (<sup>o</sup>C) kali 9/5 tambah 32.</p>
+     <p>S<sub>(<sup>o</sup>F)</sub>(S<sub>(<sup>o</sup>C)</sub>X 9/5)+32</p>
+     <p>atau</p>
+     <p><p>S<sub>(<sup>o</sup>F)</sub>(S<sub>(<sup>o</sup>C)</sub>X 1.8)+32</p></p>
+</body>
+</html>
